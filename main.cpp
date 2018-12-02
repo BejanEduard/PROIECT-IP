@@ -70,7 +70,7 @@ void initTabla()
             TablaDeJoc[linia][coloana] = SPATIU;
     for(coloana = 1; coloana <= numar; coloana+=2)
         TablaDeJoc[numar][coloana] = CAINE;
-    TablaDeJoc[4][4] = VULPE;
+    TablaDeJoc[1][4] = VULPE;
 }
 
 void initializariDimensiuni()
